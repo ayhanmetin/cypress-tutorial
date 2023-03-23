@@ -2,7 +2,7 @@
 
 describe('task management', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:5173/')
+    cy.visit('http://127.0.0.1:5173/') 
   });
 it('should open and close the new task modal', () => {
     cy.get('[data-cy="start-add-task-button"]').click()
